@@ -1,5 +1,5 @@
 # learn-cicd-starter (Notely)
-![](https://github.com/husteve07/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
+![Ci badge](https://github.com/husteve07/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
 
 "steve hu 's version of Boot.dev's Notely app."
 
