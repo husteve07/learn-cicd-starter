@@ -11,6 +11,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          go-version: "1.27.1"
       - name: set up Go toolchain
-        uses: scripts/buildprod.sh
+        uses: actions/setup-go@v3
+        with:
+          go-version: "1.27.1"
+      - name: build production
+        run: bash scripts/buildprod.sh
       
